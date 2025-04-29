@@ -14,3 +14,4 @@ print("I am a cloud engineer"+", although I love cooking and want to be a chef")
 # Input function
 input("Why do I want to be a chef?")
 print("Thank you if you belive in me! and if you don't its okay your validation means nothing to me " + input("why do I want to be a chef"))
+ 

@@ -1,14 +1,14 @@
 📌 First, Here’s Your Skill List Rated for Immediate Job Relevance:
 
 
-Skill	Importance for getting hired now	   How Much to Learn
-Python	Critical	 Basics + scripting + Flask API understanding
-AWS Lab Practice	Critical	 EC2, S3, Lambda, API Gateway, DynamoDB, IAM, VPC, RDS, CloudWatch
-Terraform	Important	 Basic resource provisioning (EC2, S3, IAM)
-CloudFormation	Important but Secondary 	 Just basics; pick Terraform first
-System Design	Minor (Entry-level roles)	 Very basic — focus on how apps scale
-Bash Scripting	Important	 Basic scripts (file handling, loops, SSH automation)
-Linux	Critical	 Command line, permissions, basic server setup
+Skill	                Importance for getting hired now	                How Much to Learn
+Python	                        Critical	                            Basics + scripting + Flask API understanding
+AWS Lab Practice	            Critical	                            EC2, S3, Lambda, API Gateway, DynamoDB, IAM, VPC, RDS, CloudWatch
+Terraform	                    Important	                            Basic resource provisioning (EC2, S3, IAM)
+CloudFormation	                Important but Secondary 	            Just basics; pick Terraform first
+System Design	                Minor (Entry-level roles)	            Very basic — focus on how apps scale
+Bash Scripting	                Important	                            Basic scripts (file handling, loops, SSH automation)
+Linux	                        Critical	 C  \ommand line, permissions, basic server setup
 Kafka	Not necessary now	 Skip for now (mid-level concept)
 Design Principles (SOLID, DRY, KISS)	Minor	 Basic awareness only (not interview focus)
 Architecture Patterns	Helpful	 Serverless, Microservices (high-level only)
@@ -16,6 +16,9 @@ Docker	Critical	 Containerizing apps, building + pushing images
 Kubernetes	Secondary (Optional for now)	 Basics only — running containers, EKS intro
 Distributed Systems	Not needed for entry-level	 Skip for now (future study after job)
 Networking Security (VPC, NACL, SGs    	Important	 AWS networking basics must be strong
+
+
+
 📋 Master Skill Map (with Target Depths)
 1. Python (Cloud-focused)
 ✅ Learn:
