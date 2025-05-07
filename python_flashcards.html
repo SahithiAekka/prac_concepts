@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Flashcards - 100 Days of Python (Udemy)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #222; }
+        h1 { color: #2d6cdf; }
+        h2 { color: #1a4a8a; margin-top: 1.5em; }
+        .concept { margin-bottom: 1.2em; }
+        .toc { background: #e3eefd; padding: 1em; border-radius: 8px; margin-bottom: 2em; }
+        .toc ul { margin: 0; padding-left: 1.2em; }
+        .toc li { margin-bottom: 0.3em; }
+    </style>
+</head>
+<body>
+<h1>Python Flashcards<br><small>100 Days of Python (Udemy) - Key Concepts</small></h1>
+
+<div class="toc">
+    <strong>Table of Contents</strong>
+    <ul>
+        <li><a href="#print-input">Print & Input</a></li>
+        <li><a href="#variables-naming">Variables & Naming</a></li>
+        <li><a href="#string-operations">String Operations</a></li>
+        <li><a href="#data-types">Data Types</a></li>
+        <li><a href="#type-checking-casting">Type Checking & Casting</a></li>
+        <li><a href="#operators">Operators</a></li>
+        <li><a href="#conditionals">Conditional Statements</a></li>
+        <li><a href="#loops">Loops</a></li>
+        <li><a href="#functions">Functions</a></li>
+        <li><a href="#lists">Lists & Indexing</a></li>
+        <li><a href="#random">Random Module</a></li>
+        <li><a href="#project-example">Project Example: Hangman</a></li>
+    </ul>
+</div>
+
+<div class="concept" id="print-input">
+    <h2>Print & Input</h2>
+    <ul>
+        <li><strong>print()</strong> displays output to the console.</li>
+        <li><strong>input()</strong> gets user input as a string.</li>
+        <li>Use <code>\n</code> for new lines in strings.</li>
+        <li>String concatenation with <code>+</code> joins strings together.</li>
+    </ul>
+</div>
+
+<div class="concept" id="variables-naming">
+    <h2>Variables & Naming</h2>
+    <ul>
+        <li>Variables store data for later use.</li>
+        <li>Variable names should be descriptive and follow Python naming rules (letters, numbers, underscores; cannot start with a number).</li>
+    </ul>
+</div>
+
+<div class="concept" id="string-operations">
+    <h2>String Operations</h2>
+    <ul>
+        <li>Strings are sequences of characters, defined with quotes.</li>
+        <li>Concatenation: <code>"Hello" + "World"</code> → <code>HelloWorld</code></li>
+        <li>Indexing: <code>"Hello"[1]</code> gives <code>e</code>.</li>
+        <li><code>len()</code> returns the length of a string.</li>
+    </ul>
+</div>
+
+<div class="concept" id="data-types">
+    <h2>Data Types</h2>
+    <ul>
+        <li><strong>str</strong>: String (text)</li>
+        <li><strong>int</strong>: Integer (whole number)</li>
+        <li><strong>float</strong>: Floating point (decimal number)</li>
+        <li><strong>bool</strong>: Boolean (<code>True</code> or <code>False</code>)</li>
+        <li>Use underscores for readability in large numbers: <code>123_456_789</code></li>
+    </ul>
+</div>
+
+<div class="concept" id="type-checking-casting">
+    <h2>Type Checking & Casting</h2>
+    <ul>
+        <li><code>type()</code> checks the data type of a value.</li>
+        <li>Type casting converts between types, e.g., <code>int("123")</code>, <code>str(123)</code>.</li>
+    </ul>
+</div>
+
+<div class="concept" id="operators">
+    <h2>Operators</h2>
+    <ul>
+        <li><strong>Arithmetic:</strong> <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code> (modulo), <code>**</code> (power)</li>
+        <li><strong>Assignment:</strong> <code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code></li>
+        <li><strong>Comparison:</strong> <code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code></li>
+        <li><strong>Logical:</strong> <code>and</code>, <code>or</code>, <code>not</code></li>
+    </ul>
+</div>
+
+<div class="concept" id="conditionals">
+    <h2>Conditional Statements</h2>
+    <ul>
+        <li><strong>if</strong>, <strong>elif</strong>, <strong>else</strong> control the flow based on conditions.</li>
+        <li>Indentation is crucial for defining code blocks.</li>
+        <li>Use comparison and logical operators in conditions.</li>
+        <li>Nested conditionals allow for more complex logic.</li>
+    </ul>
+</div>
+
+<div class="concept" id="loops">
+    <h2>Loops</h2>
+    <ul>
+        <li><strong>for</strong> loops iterate over sequences (like lists).</li>
+        <li><strong>while</strong> loops repeat as long as a condition is true.</li>
+        <li>Indentation is required for the loop body.</li>
+    </ul>
+</div>
+
+<div class="concept" id="functions">
+    <h2>Functions</h2>
+    <ul>
+        <li>Functions are defined with <code>def</code> and called by name.</li>
+        <li>They help organize code and avoid repetition.</li>
+        <li>Parameters allow functions to accept input values.</li>
+        <li>Indentation is required for the function body.</li>
+    </ul>
+</div>
+
+<div class="concept" id="lists">
+    <h2>Lists & Indexing</h2>
+    <ul>
+        <li>Lists store multiple items in a single variable, defined with square brackets <code>[]</code>.</li>
+        <li>Items can be accessed by index (starting at 0).</li>
+        <li>Lists can contain mixed data types.</li>
+        <li>Be careful of index out-of-range errors.</li>
+    </ul>
+</div>
+
+<div class="concept" id="random">
+    <h2>Random Module</h2>
+    <ul>
+        <li>Use <code>import random</code> to access randomization functions.</li>
+        <li><code>random.randint(a, b)</code> returns a random integer between <code>a</code> and <code>b</code> (inclusive).</li>
+        <li><code>random.random()</code> returns a random float between 0.0 (inclusive) and 1.0 (exclusive).</li>
+        <li><code>random.choice(list)</code> selects a random item from a list.</li>
+    </ul>
+</div>
+
+<div class="concept" id="project-example">
+    <h2>Project Example: Hangman</h2>
+    <ul>
+        <li>Combines input, loops, conditionals, lists, and randomization.</li>
+        <li>Tracks user guesses and remaining lives.</li>
+        <li>Uses a loop to continue the game until win/lose condition is met.</li>
+        <li>Demonstrates how to build a simple game by combining multiple concepts.</li>
+    </ul>
+</div>
+
+</body>
+</html> 
