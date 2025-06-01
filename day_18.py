@@ -81,16 +81,16 @@ j= Turtle()
 #     g=random.randint(0,255)
 #     randomcolor=(r, g, b)
 #     return randomcolor
-#
+
 # directions = [0, 90, 180, 270]
 # j.pensize(15)
 # j.speed("fastest")
-#
+
 # for _ in range(200):
 #     j.color((random_color()))
 #     j.forward(30)
 #     j.setheading(random.choice(directions))
-#
+
 
 # tuple : data type in python that is similar to list with curved brackets . we can't change the contents of a tuple
 #  once created it  is immutable . can't be changed . to change it you can put it in a list and  make it a list
@@ -116,7 +116,7 @@ for i in range (0,72):
 
 
 screen = Screen()
-# screen.bgcolor("yellow")
+screen.bgcolor("salmon")
 
 screen.exitonclick()
 
