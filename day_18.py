@@ -115,12 +115,6 @@ for i in range (0,72):
 
 
 
-
-
-
-
-
-
 screen = Screen()
 # screen.bgcolor("yellow")
 
