@@ -9,7 +9,7 @@ import random
 # Event listeners let you respond to user input, like key presses or mouse clicks. 
 # These listeners are set up using specific functions that tell Turtle to "listen for" an event and then "do something" when it happens.
 
-# tim = turtle.Turtle()
+tim = Turtle()
 # screen = turtle.Screen()
 
 def move_forward():
