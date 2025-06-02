@@ -1,4 +1,4 @@
-# Conditional statements 
+# Conditional statements , comaprision operators, modulo operator, nested if else, elif statements, logical operator 
 # if condition:
 #       do this 
 # else:
