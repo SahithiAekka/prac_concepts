@@ -25,7 +25,7 @@ class Fish(Animal):
 nemo = Fish()
 nemo.swim()
 nemo.breathe()
-print(nemo.num_eyes)b
+print(nemo.num_eyes)
 
 # Objectted created from fish class no has access to all the attributes and methods from the super class 
 
