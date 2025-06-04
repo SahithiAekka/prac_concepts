@@ -7,3 +7,13 @@
 #    On the next level, the car speed increases.
 
 # 4. When the turtle collides with a car, it's game over and everything stops.
+
+# Step 1 : Move the turtle with keypress
+
+# Step 2 : Crate and move the cars 
+
+# Step 3 : Detect collision with car 
+
+# Step 4 : Detect when the turtle reaches the other side 
+
+# Step 5 : Create a score board 
