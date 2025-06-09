@@ -14,5 +14,20 @@ def add(*args):
 print(add(34.5,7,8,7,1,9,0,4,5))
 
 # ****************** KEYWORD ARGUMNETS **************************
-#  **kwarg 
+#  **kwarg - double astrick -unlimited keyword arguments
+# **kwargs allows you to pass a variable number of keyword arguments into a function or method
+class Car:
+    def __init__(self, **kw):
+        self.make = kw.get("make")
+        self.model = kw.get("model")
+        self.color = kw.get("color")
+        self.seats = kw.get("seats")
 
+
+my_car = Car(make="Nissan", model="GT-R")
+
+
+def bar(spam, eggs, toast='yes please!', ham=0):
+    print(spam, eggs, toast, ham)
+ 
+bar(toast='nah', spam=4, eggs=2)
