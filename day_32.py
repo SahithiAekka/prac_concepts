@@ -21,3 +21,11 @@ print(today)
 # Module	    Purpose	                    Key Methods	                                        Used For
 # smtplib	    Send emails using           SMTP	SMTP(), starttls(), login(), sendmail()	    Automating email sending
 # datetime	    Work with date and time	    now(), today, .month, .day	                        Check if today matches a birthday
+
+
+
+
+# Python anywhere --host run python in cloud 
+# upload the files and program 
+# open a console 
+# you can schedule to run the program  
