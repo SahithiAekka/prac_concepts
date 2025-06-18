@@ -1,7 +1,7 @@
 # API -- APPLICATION PROGRAM INTERFACE 
 
 # a set of functions protocols and objects that programers can use to create software or interact with an external system 
-# hink of it as a bridge or interface between your program and external data sources or services.
+# think of it as a bridge or interface between your program and external data sources or services.
 
 
 # 🔁 How APIs Work
@@ -23,17 +23,21 @@
 # Call the get() method with the endpoint URL.
 # Store the response in a variable.
 
-# Example:
-import requests
+# JSON (JavaScript Object Notation) is the format used for data exchange via APIs. It's lightweight, minimal, and structured like. {"quote":"this is an example"}, its data structure is a dictionary
 
-response = requests.get("http://api.open-notify.org/iss-now.json")
-print(response) # 200
-# 200 means OK, i.e., your program: Connected to the API endpoint, Made a valid request and Received a proper response from the server
+# Error Codes
+# '404'  error code :  Dosen't exit the program that you're looking for dosen't exist 
+#  200 means OK, i.e., your program: Connected to the API endpoint, Made a valid request and Received a proper response from the server
 
-data = response.json()  # Convert JSON response to Python dictionary
-print(data) # {'timestamp': 1750129427, 'message': 'success', 'iss_position': {'longitude': '-29.5685', 'latitude': '-28.4055'}}
+#  1XX-- Hold on 
+#  2XX-- works , here you go 
+#  3XX-- You don't have the permision to get this 
+#  4XX-- You screwed up , dosen't work 
+#  5XX-- SServer screwed up , server issues 
 
-# JSON (JavaScript Object Notation) is the format used for data exchange via APIs. It's lightweight, minimal, and structured like:
+# Webpage: httpstatuses.com - gives you all the response codes 
+
+# API PARAMETERS 
+# not all api's have parameters  
 
 
-# '404'  error code :  Dosen't exit the program that you're looking for  
