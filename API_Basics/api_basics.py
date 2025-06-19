@@ -4,7 +4,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-test_key= os.getenv("OPENAI_API_KEY")
+test_key= os.getenv("OPENAI_API_KEY_1")
 
 client = OpenAI(api_key=test_key)
 # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -23,3 +23,4 @@ response = client.responses.create(
 reply = response.output[0].content[0].text
 
 print(reply)
+print(response)
