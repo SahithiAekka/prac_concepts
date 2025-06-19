@@ -1,0 +1,8 @@
+What is an API?
+An API (Application Programming Interface) is a messenger between two applications. 
+When you ask a question from your Python script, the API delivers it to OpenAI’s server. 
+The server thinks, writes a response, and the API brings that back to your terminal.
+
+So, you = client.
+OpenAI = server.
+API = delivery service between both.
