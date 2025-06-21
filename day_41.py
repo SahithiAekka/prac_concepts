@@ -13,3 +13,9 @@
 
 # The Google server responds with all the data/files needed to show the homepage.
 
+# # IP Address - 📡 Types of IP Addresses
+# Type	Description
+# Static IP	Fixed. Never changes. Often used for servers.
+# Dynamic IP	Changes periodically. Common for home networks.
+# Public IP	The address your ISP assigns to you on the internet.
+# Private IP	Used inside your home network (e.g., 192.168.1.1).
