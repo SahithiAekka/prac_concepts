@@ -29,7 +29,7 @@
 # By class (⚠️ class is reserved in Python):
   # soup.find(name='h3', class_='heading')  # use `class_`, not `class`
 
-# 🧱 CSS Selector Reference
+# 🧱 CSS Selector Reference 
 # Selector          	Meaning
 # tag               	All <tag> elements
 # .class            	All elements with that class
@@ -37,3 +37,5 @@
 # tag.class	            Specific tag & class
 # tag1 tag2	            Nested (descendant) tag2 inside tag1
 # div > p           	Direct child p of div
+
+beautiful soup 
