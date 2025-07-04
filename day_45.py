@@ -38,4 +38,4 @@
 # tag1 tag2	            Nested (descendant) tag2 inside tag1
 # div > p           	Direct child p of div
 
-beautiful soup 
+# beautiful soup 
