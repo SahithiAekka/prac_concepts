@@ -8,5 +8,20 @@ chrome_options.add_experimental_option("detach", True)
 driver= webdriver.Chrome(options=chrome_options)
 driver.get(url="https://www.amazon.com")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # driver.close() # closes the active tab  
 driver.quit() #closes the entire browser 
