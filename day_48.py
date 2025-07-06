@@ -1,4 +1,7 @@
 from selenium import webdriver 
+# webdriver module lets you control browsers like Chrome 
+
+
 
 # Keepin gchrome browser open after program finishes 
 chrome_options = webdriver.ChromeOptions()
@@ -10,6 +13,7 @@ driver.get(url="https://www.amazon.com")
 
 
 
+# Locator strategies: "https://www.selenium.dev/documentation/webdriver/elements/locators/"
 
 
 
@@ -24,4 +28,4 @@ driver.get(url="https://www.amazon.com")
 
 
 # driver.close() # closes the active tab  
-driver.quit() #closes the entire browser 
+# driver.quit() #closes the entire browser 
