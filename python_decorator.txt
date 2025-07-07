@@ -1,0 +1,29 @@
+Python decorator - Func that gives additional functonalities to an exsiting function 
+
+A decorator is a function that adds extra functionality to another function without modifying its code.
+Used for things like logging, authentication, timing, etc.
+
+@decorator_function
+def your_function():
+    ...
+
+
+
+
+                --- First class func -- data an be passed or returned 
+Functions ----- --- Nested func  -- func inside func with limited space 
+                --- Returning func -- outer funcx can return ones 
+                
+
+
+Decorators	Functions that wrap other functions to add features
+
+
+Functions can take other functions as arguments.
+
+Functions can be defined inside other functions (nested).
+
+Functions can return other functions.
+
+Functions are first-class objects — they can be passed around like variables.
+
