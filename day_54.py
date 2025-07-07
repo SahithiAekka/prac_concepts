@@ -21,3 +21,7 @@
 # server - a powerful computer hoked up to internet 24/7
 # database - like a spreadsheet 
 
+# diff btw library and frame work 
+
+# Library- you call upon when you want to use it means you're in control 
+# Framework - you have to abide their rules 
