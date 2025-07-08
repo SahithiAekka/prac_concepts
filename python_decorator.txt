@@ -27,3 +27,13 @@ Functions can return other functions.
 
 Functions are first-class objects — they can be passed around like variables.
 
+
+
+**********  Structure of a decorator *****************
+
+def my_decorator(function):
+    def wrapper():
+        # Do something before
+        function()      # Call the original function
+        # Do something after
+    return wrapper
