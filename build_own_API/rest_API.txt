@@ -1,0 +1,47 @@
+API -- APPLICATION PROGRAM INTERFACE 
+
+RE- Representational 
+S- State 
+T - Transfer 
+
+
+Client - Server 
+
+HTTP Request - Hyper Text Tranfer Protocol 
+HTTPs Request - Hyper Text Transfer Protcol Secure 
+FTP request - File Transfer Protcol 
+
+Error Codes
+'404'  error code :  Dosen't exit the program that you're looking for dosen't exist 
+200 means OK, i.e., your program: Connected to the API endpoint, Made a valid request and Received a proper response from the server
+
+1XX-- Hold on 
+2XX-- works , here you go 
+3XX-- You don't have the permision to get this 
+4XX-- You screwed up , dosen't work 
+5XX-- Server screwed up , server issues 
+
+Where does API come into play?? 
+
+
+Client -- API -- Server 
+
+over here API is like a menu btw he client and server 
+
+Rest - it's an architecture style for desining API's -- 
+REST is the dominant style 
+there are other are soap, Falcor 
+there are certain set rules that the API must follow 
+
+RESTFUL APIs
+two main rules:: -- HTTP Request verbs 
+                 -- Specific Pattern of routes/endpoints URLs 
+
+
+HTTP verbs-- GET, POST, PUT, PATCH, DELETE 
+
+db - create read upfdate delete 
+
+specific pattern of routes and endpoints 
+RESTFUL ROUTING --- 
+
