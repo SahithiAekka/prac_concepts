@@ -1,0 +1,38 @@
+Bootstrap is a popular CSS framework developed in 2010 by Twitter developers Mark Otto and Jacob Thornton.
+
+It provides:  Pre-made CSS styles.
+              Pre-designed components (like buttons, cards, navbars, etc.).
+              A 12-column grid layout based on Flexbox for responsive web design.
+              A Mobile First approach — websites look great on all screen sizes.
+
+
+Fast & Easy, Responsive Layouts, Pre-Built Components, 
+
+
+🧰 Imagine This:
+🔨 Without Bootstrap:
+You bake a cake from scratch — you mix the flour, sugar, eggs, everything.
+
+🧁 With Bootstrap:
+You use a cake mix box — it’s faster, easier, and still tastes great!
+
+Bootstrap = Website Cake Mix 🧁
+
+
+
+👎 When Not to Use It
+Avoid it if:
+
+You need a very custom design
+
+You want to learn deep CSS
+
+You want complete control over your code
+
+
+
+
+BOOTSTRAP COMPONENTS ::: They are pre-designed UI elements that you can copy-paste into your website 
+                         to make it look beautiful and professional without writing your own CSS.
+
+1. Bootstrap button: 
