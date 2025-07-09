@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Add a Book</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+        body {
+            font-family: 'Libre Baskerville', serif;
+            background: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(255, 248, 240, 0.9);
+            padding: 40px;
+            border-radius: 16px;
+            border: 2px solid #d8cfc0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 36px;
+            color: #7e5c52;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #5e4b3c;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            background-color: #fdf7f2;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 30px;
+            background-color: #c89f9c;
+            color: white;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #a87d7a;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #7e5c52;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Add a Book to Sahithi's Shelf</h1>
+        <form method="POST">
+            <label for="title">Title:</label>
+            <input type="text" name="title" required />
+
+            <label for="author">Author:</label>
+            <input type="text" name="author" required />
+
+            <label for="rating">Rating:</label>
+            <input type="text" name="rating" required />
+
+            <button type="submit">✨ Add Book</button>
+        </form>
+        <a class="back-link" href="/">← Back to Book List</a>
+    </div>
+</body>
+</html>
