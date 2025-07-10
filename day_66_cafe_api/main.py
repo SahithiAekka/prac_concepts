@@ -39,6 +39,9 @@ def home():
     return render_template("index.html")
 
 
+# we have to turn our random_cafe SQLAlchemy Object into a JSON. This process is called serialization 
+# To return the result in JSON, we need to convert the SQLAlchemy object to a Python dictionary, then use jsonify().
+
 # HTTP GET - Read Record
 @app.route("/random", methods=["GET"])
 def get_random_cafe():
