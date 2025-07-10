@@ -29,6 +29,8 @@ class Cafe(db.Model):
     can_take_calls: Mapped[bool] = mapped_column(Boolean, nullable=False)
     coffee_price: Mapped[str] = mapped_column(String(250), nullable=True)
 
+    def to_dict(self):
+        return {column.name: getattr(self, column.name) for column in self.__table__.columns}
 
 with app.app_context():
     db.create_all()
@@ -39,10 +41,10 @@ def home():
     return render_template("index.html")
 
 
+# HTTP GET - Read Record
 # we have to turn our random_cafe SQLAlchemy Object into a JSON. This process is called serialization 
 # To return the result in JSON, we need to convert the SQLAlchemy object to a Python dictionary, then use jsonify().
 
-# HTTP GET - Read Record
 @app.route("/random", methods=["GET"])
 def get_random_cafe():
     random_cafe = db.session.query(Cafe).order_by(func.random()).first()
@@ -61,7 +63,19 @@ def get_random_cafe():
         }
     )
 
+
+# GET all the cafes 
+@app.route("/all")
+def get_all_cafes():
+    result = db.session.execute(db.select(Cafe).order_by(Cafe.name))
+    all_cafes = result.scalars().all()
+    #This uses a List Comprehension but you could also split it into 3 lines.
+    return jsonify(cafes=[cafe.to_dict() for cafe in all_cafes])
+
+
 # HTTP POST - Create Record
+
+
 
 
 # HTTP PUT/PATCH - Update Record
