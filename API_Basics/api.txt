@@ -6,3 +6,9 @@ The server thinks, writes a response, and the API brings that back to your termi
 So, you = client.
 OpenAI = server.
 API = delivery service between both.
+
+
+there are three nai. types of api 
+1. Rest api 
+2. web socket 
+3. streeming api 
