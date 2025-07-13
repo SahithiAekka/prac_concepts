@@ -1,0 +1,27 @@
+Setting up virtual environment with python for diff versions example: 3.11 and 3.13
+
+1. check your current version 
+--> python --version
+
+if it matches with the version you want continue if not follow the below steps 
+
+2. Set up an alias for the python version you want along with the path to the version. in the below exaple "python311" is an alias name 
+syntax --> Set-Alias alias_name path 
+example --> Set-Alias python311 "C:\Users\18102\AppData\Local\Programs\Python\Python311\python.exe"
+
+3. now check your python version by using the allias name you check the version again 
+syntax --> alias_name --version 
+example --> python311 --version
+
+4. Then continue to create a virtual environment with the alias name 
+syntax --> alias_name -m venv virtual_env_name
+example --> python311 -m venv testpython_311 
+
+5. Active your virtual environment
+--> virtual_env_name\Scripts\activate
+--> .\testpython_311\Scripts\activate
+
+testpython311 - inside this virtual_env - python keyword directly points to the path where python311 exe is stored - no need to use python311 alais keyword inside the virtual_env
+
+only use it outside where python311 is python 311 exe while just python keyword is python 3.13
+
