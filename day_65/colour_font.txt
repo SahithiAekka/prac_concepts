@@ -1,0 +1,31 @@
+Colour theory 
+Color theory is the art + science of selecting the right palette to create emotional and visual consistency in your website or brand.
+
+
+🌈 2. Psychology of Colors
+    Color	 Meaning	                     Common Use Cases
+🔴 Red  	Love, Energy, Intensity	        Car ads, Call-to-action
+🟡 Yellow	Joy, Intellect, Attention	    Ads, Headlines (⚠️ not for long reads)
+🟢 Green	Freshness, Growth, Safety	    Grocery, Food, Health (e.g., HelloFresh)
+🔵 Blue	    Trust, Stability, Serenity	    Finance, Tech (e.g., PayPal, Coinbase)
+🟣 Purple	Royalty, Luxury, Femininity	    Fashion, Beauty, Loans (esp. targeting women)
+
+💡 Tip: Blue boosts trust—even in interviews (study shows higher trust when wearing blue).
+
+Aligned tones → Professional, consistent message.
+Color is communication. 
+Pick your palette based on message, brand identity, and user emotion—not just aesthetics.
+
+
+**********FONT**********
+Fonts shape perception as much as colors do. 
+Choose based on message, readability, and visual hierarchy—not just preference.
+
+
+📐 Best Practices for Font Combinations
+Do	                                    Don't
+Use max 2 fonts per design	            Use 5+ fonts—looks cluttered
+Pair fonts with similar mood and era	Mix ultra-modern with old-fashioned
+Use Serif + Sans-Serif combos	        Use 2 similar fonts with no contrast
+Create contrast via weight          	Use same weight for all element
+(e.g., bold heading, light body)
