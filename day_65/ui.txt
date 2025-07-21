@@ -1,1 +1,6 @@
-UI Design shapes how users perceive, navigate, and interact with your site. Good UI communicates clarity, trust, and intent.
+UI Design shapes how users perceive, navigate, and interact with your site. 
+Good UI communicates clarity, trust, and intent.
+
+🧭 1. Visual Hierarchy
+
+📐 2. Layout 
