@@ -9,6 +9,8 @@ API = delivery service between both.
 
 
 there are three nai. types of api 
-1. Rest api 
+1. Rest api : REST (Representational State Transfer) is one of the most lucrative categories of web-based APIs. Based on Uniform Resource Identifiers (URIs) and HTTP protocol, REST-based APIs use JSON for data formatting which is considered to be browser-compatible.
+
+REST-based APIs are extremely simple when it comes to building and scaling as compared to other types of APIs. When these types of APIs are put to action, they help facilitate client-server communications with ease and smoothness. 
 2. web socket 
 3. streeming api 
