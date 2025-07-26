@@ -32,4 +32,7 @@ API Terminology
 API types
 API protocol types 
 
-Good reads - deep dive , project frame 
+Good reads - deep dive , project frame
+
+
+s3, dynamo db, api gateway 
