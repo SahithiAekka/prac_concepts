@@ -33,3 +33,7 @@ API types
 API protocol types 
 
 Good reads - deep dive , project frame 
+
+
+S3, Dynamodb, API agetway 
+Search by text 
