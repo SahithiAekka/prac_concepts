@@ -32,15 +32,17 @@ API Terminology
 API types
 API protocol types 
 
-<<<<<<< HEAD
-Good reads - deep dive , project frame 
-
-
-S3, Dynamodb, API agetway 
-Search by text 
-=======
 Good reads - deep dive , project frame
 
+S3, Dynamodb, API gateway
+Search by text
 
-s3, dynamo db, api gateway 
->>>>>>> f0472b0fd85c4a66c8a5f0e96ab09fe3d1dd7c7c
+
+A well-rounded, cost-effective book discovery platform showcasing enterprise-grade AWS patterns
+Compute Strategy - Container-First Approach
+Why EKS over Lambda:
+  - Consistent runtime environment across services
+  - Better cost control for sustained workloads
+  - Easier local development and testing
+  - Language flexibility (Python, Go, Node.js)
+  - Simplified observability and debugging
