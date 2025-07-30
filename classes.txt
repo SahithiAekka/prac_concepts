@@ -46,3 +46,6 @@ Why EKS over Lambda:
   - Easier local development and testing
   - Language flexibility (Python, Go, Node.js)
   - Simplified observability and debugging
+
+
+google API -freebooks
