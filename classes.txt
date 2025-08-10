@@ -49,3 +49,5 @@ Why EKS over Lambda:
 
 
 google API -freebooks
+
+Set up a CICD pipeline on AWS automated 
